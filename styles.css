@@ -1,0 +1,113 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.header {
+  background-color: #fffc00;
+  height: 88px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 46px 0;
+  text-align: center;
+  font-weight: 200;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+  margin-top: 46px;
+}
+
+.button2 > button {
+  background-color: #bbbbbb;
+  color: white;
+}
+
+button {
+  font-size: 18px;
+  font-family: helvetica;
+  border: none;
+  font-weight: bold;
+  padding: 12px 41px;
+  border-radius: 50px;
+}
+.button > button {
+  color: #fffc00;
+  background: black;
+}
+
+.trouble-text {
+  text-align: center;
+  font-size: 10px;
+}
+
+.or-text {
+  text-align: center;
+  font-size: 10px;
+  margin: 30px 0 35px 0;
+  font-size: 18px;
+  color: #bbbbbb;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.input-flex > input {
+  width: 263px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.mt-43 {
+  margin-top: 43px;
+}
+
+.forget {
+  width: 263px;
+  border: 1px solid white;
+  margin: 15px auto;
+  text-align: right;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+}
+
+.signup span {
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 376px) {
+  body {
+    display: none;
+  }
+}
