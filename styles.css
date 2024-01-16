@@ -23,7 +23,7 @@ body {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 15px;
   margin: 46px 0;
   text-align: center;
   font-weight: 200;
@@ -106,8 +106,25 @@ button {
   margin-bottom: 45px;
 }
 
+.info {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid black;
+  width: 90%;
+  margin: 5px auto;
+  color: white;
+  background-color: red;
+}
+
 @media (min-width: 376px) {
-  body {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  .info {
     display: none;
   }
 }
